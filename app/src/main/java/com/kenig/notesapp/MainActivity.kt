@@ -26,7 +26,9 @@ class MainActivity : ComponentActivity() {
                     },
                 ) {
                     Surface(
-                        modifier = Modifier.fillMaxSize().padding(5.dp),
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(5.dp), //у всех объектов внутри будет такой отступ!!!
                         color = MaterialTheme.colors.background
                     ) {
                         NavHost()

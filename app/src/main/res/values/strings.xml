@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Notes App</string>
-<!--    <string name="notes_app">Notes App</string>-->
+    <string name="sql_or_firebase">What will you use?</string>
+    <string name="room">Room (SQL)</string>
+    <string name="firebase">Firebase</string>
+    <string name="title">Title</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="note_title">Note title</string>
+    <string name="note_subtitle">Note subtitle</string>
+    <string name="save_note">Save note</string>
 </resources>
